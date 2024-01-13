@@ -9,6 +9,7 @@ This repository contains the code for my thesis project, which explores the inte
 - **Notebooks**:
   - `data, training, evaluation, ig, conductance.ipynb` - This notebook contains the majority of the work including data preparation, model training, and evaluation.
   - `IG_twocases.ipynb` - This notebook explores integrated gradients for positive and negative predictions.
+  - `performance_metrics.ipynb` - This notebook shows how the performance metrics are calculated.
 
 ## Project Overview
 
