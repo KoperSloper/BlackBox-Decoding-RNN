@@ -5,11 +5,14 @@ This repository contains the code for my thesis project, which explores the inte
 ## Repository Contents
 
 - **Data**: `dataset_final.xlsx`
-- **Model**: `LSTM_[256, 512, 256, 128]_val_loss_0.09.pth` - This is the optimal model with the best hyperparameters.
+- **Model**:
+  - `LSTM_[256, 512, 256, 128]_val_loss_0.09.pth` - This is the optimal model with the best hyperparameters.
+  - `l2_loss_model.pth` - This is the model with the MSE loss function.
 - **Notebooks**:
   - `data, training, evaluation, ig, conductance.ipynb` - This notebook contains the majority of the work including data preparation, model training, and evaluation.
   - `IG_twocases.ipynb` - This notebook explores integrated gradients for positive and negative predictions.
   - `performance_metrics.ipynb` - This notebook shows how the performance metrics are calculated.
+  - `ig_different_loss.ipynb` - This notebook shows the case where just a MSE loss function is used.
 
 ## Project Overview
 
